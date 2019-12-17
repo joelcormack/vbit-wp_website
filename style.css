@@ -10,3 +10,103 @@
  Tags:         light, bootstrap, single-page, responsive-layout, woo-commerce
  Text Domain:  underbootchild
 */
+/****** VARIABLES ********/
+:root {
+    --light-blue: #c2e2f6;
+    --turquoise: #1EB5CD;
+ }
+/*
+body {…}
+h1, h2, h3 {..}
+p {…}
+a {…}
+
+*/
+button.btn, button.btn-blue {
+    color: white;
+    background-color: var(--turquoise, #1EB5CD);
+    border-radius: 2rem;
+    padding: 0.4rem 2.5rem;
+    margin: 1rem 0;
+}
+
+
+/****** Header Style *********/
+
+
+/****** Navigation Style *********/
+
+
+/****** Footer Style *********/
+
+
+/****** Home Page ******/
+.homepage-background {
+    position: absolute;
+    left: -5px;
+    top: -154px;
+    width: 100%;
+    height: 649px;
+    background-color: #c2e2f6;
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    border-radius: 46px;
+    z-index: -1;
+}
+.front-page--how-minging-works {
+
+
+}
+
+.front-page--packages-and-services {
+    background-color: var(--light-blue, #c2e2f6);
+}
+.front-page--packages-and-services h3 {
+    font-size: 1.1rem;
+}
+.package span {
+    margin: auto;
+    display: block;
+}
+.package-block {
+    
+}
+.package-block h4 {
+    font-size: 1.2rem;
+}
+.package {
+    padding: 0.7rem;
+}
+.package-left-section {
+    background: white;
+    width: 50%;
+    float: left;
+    border-radius: 20px 0px 0 20px;
+    border-bottom-color: blue;
+    border-bottom: 6px solid;
+    background-image: linear-gradient(#1AAC80,#2EB4C5);
+    color: white;
+}
+
+.package-right-section {
+    display:flex;
+    background: white;
+    width: 50%;
+    float: left;
+    border-radius: 0 20px 20px 0;
+    border-bottom: 6px solid white;
+    text-align: center;
+}
+.package-cost-section {
+    margin: auto;
+
+}
+.cost {
+    font-size: 2rem;
+    font-weight:700;
+}
+.front-page--advert {
+    background-color: var(--turquoise);
+    text-align: center;
+}
