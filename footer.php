@@ -22,12 +22,12 @@
 			<div class="site-info row">
 				<div class="col-sm-6">
 					<div class="row">
-						<div class="col">
+						<div class="col-sm">
 							<img src="http://vbit.test/wp-content/uploads/2019/12/vbit-logo.png" class="custom-logo" alt="vbit-logo" />
 							<a href="mailto:support@vbittech.com">support@vbittech.com</a>
 						</div>
 						
-						<div class="col">
+						<div class="col-sm my-4 my-md-0">
 							<h4>Links</h4>
 							<?php wp_nav_menu(
 									array(
@@ -42,9 +42,9 @@
 					</div>
 				</div>
 				
-				<div class="col-sm-6">
+				<div class="col-sm-6 mb-3 mb-md-0">
 					<div class="row">
-						<div class="col">
+						<div class="col-sm">
 							<h4>Our Address</h4>
 							<address>
 								<ul class="navbar-nav">
@@ -54,7 +54,7 @@
 							</address>
 						</div>
 
-						<div class="col">
+						<div class="col-sm mb-4 mb-md-0">
 							<?php wp_nav_menu(
 								array(
 									'theme_location'  => 'footer-extra',
@@ -77,12 +77,28 @@
 <div id="mc_embed_signup">
 <form action="https://joelcormack.us4.list-manage.com/subscribe/post?u=48dd792276dacc99de09d246d&amp;id=dc3df8050d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<label for="mce-EMAIL">Join Our Newsletter</label>
-	<p>Be the first to receive the latest news, valuable content and cool opportunities VBit has to offer! Don’t forget to follow us on our social media channels.</p>
-	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_48dd792276dacc99de09d246d_dc3df8050d" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+		<label for="mce-EMAIL">Join Our Newsletter</label>
+		<p>Be the first to receive the latest news, valuable content and cool opportunities VBit has to offer! Don’t forget to follow us on our social media channels.</p>
+		<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+		<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+		<div style="position: absolute; left: -5000px;" aria-hidden="true">
+			<input type="text" name="b_48dd792276dacc99de09d246d_dc3df8050d" tabindex="-1" value="">
+		</div>
+		<div class="clear"><input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+		<div class="footer-ion-icons mt-3">
+			<a href="">
+				<ion-icon name="logo-facebook"></ion-icon>
+			</a>
+			<a href="">
+				<ion-icon name="logo-twitter"></ion-icon>
+			</a>
+			<a href="">
+				<ion-icon name="logo-youtube"></ion-icon>
+			</a>
+			<a href="">
+				<ion-icon name="logo-instagram"></ion-icon>
+			</a>
+		</div>
     </div>
 </form>
 </div>

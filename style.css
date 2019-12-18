@@ -16,6 +16,7 @@
     --light-blue: #c2e2f6;
     --turquoise: #1EB5CD;
     --dark-blue: darkblue;
+    --light-grey: #ABB0B2;
     font-family: 'Roboto', sans-serif;
  }
 /****** GENERAL *******/
@@ -58,10 +59,42 @@ button.btn-white {
 }
 #mc_embed_signup {
     background: #212121 !important;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
 }
 #mc_embed_signup form {
     text-align: left !important;
+}
+#mc_embed_signup label {
+    padding: 0 !important;
+}
+#mc_embed_signup p {
+    color: var(--light-grey);
+}
+#mc_embed_signup input.email {
+    border-radius: 0 !important;
+    padding: 1.5rem !important;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--light-grey, #ABB0B2) !important;
+}
+#mc_embed_signup .button {
+    border-radius: 0 !important;
+    padding: 1rem 1.5rem !important;
+    background-color: white !important;
+    border: 1px solid var(--light-grey, #ABB0B2) !important;
+    color: #636363 !important;
+    height: auto !important;
+    line-height: 1rem !important;
+}
+.footer-ion-icons {
+    color: white;
+    font-size: 1.6rem;
+}
+.footer-ion-icons a:hover {
+    text-decoration: none;
+}
+.footer-ion-icons a:hover ion-icon {
+    color:var(--turquoise);
 }
 /****** Home Page ******/
 .entry-content h4 {
@@ -167,7 +200,11 @@ button.btn-white {
     vertical-align: text-bottom;
 }
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {  }
+@media (min-width: 576px) { 
+    .menu-footer-right-extra-container {
+        margin-top: 4rem;
+    }
+ }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
@@ -176,6 +213,9 @@ button.btn-white {
         top: -126px;
         width: 113%;
         height: 704px;
+    }
+    .menu-footer-right-extra-container {
+        margin-top: 2.3rem;
     }
  }
 
@@ -187,7 +227,15 @@ button.btn-white {
         width: 110%;
         height: 693px;
     }
+    #mc_embed_signup input.email {
+        width: auto !important;
+        min-width: 68%;
+    }
  }
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) { 
+    #mc_embed_signup input.email {
+        width: 350px !important;
+    }
+ }
