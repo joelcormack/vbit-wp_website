@@ -10,13 +10,18 @@
  Tags:         light, bootstrap, single-page, responsive-layout, woo-commerce
  Text Domain:  underbootchild
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 /****** VARIABLES ********/
 :root {
     --light-blue: #c2e2f6;
     --turquoise: #1EB5CD;
     --dark-blue: darkblue;
+    font-family: 'Roboto', sans-serif;
  }
 /****** GENERAL *******/
+body {
+    font-family: 'Roboto', sans-serif;
+}
 button.btn, button.btn-blue {
     min-width: 9rem;
     margin: 0.5rem 0;
@@ -30,6 +35,7 @@ button.btn-white {
 }
 
 
+
 /****** Header Style *********/
 
 
@@ -37,8 +43,26 @@ button.btn-white {
 
 
 /****** Footer Style *********/
-
-
+.site-footer {
+    background-color: var(--turquoise, #1EB5CD);
+}
+.site-footer, .site-footer a {
+    color: white;
+}
+.site-footer li {
+    list-style-type: none;
+}
+.site-footer ul {
+    margin: 0;
+    padding: 0;
+}
+#mc_embed_signup {
+    background: #212121 !important;
+    padding: 1rem;
+}
+#mc_embed_signup form {
+    text-align: left !important;
+}
 /****** Home Page ******/
 .entry-content h4 {
     font-size: 1.1rem;
@@ -126,6 +150,21 @@ button.btn-white {
     display: block;
     margin: 1.3rem auto;
     padding: .7rem 2rem;
+}
+.email-aside {
+    background-image: url("img/email-aside-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #054252;
+    color: white;
+    text-align: center;
+}
+.email-aside a {
+    color: white;
+    text-decoration: underline;
+}
+.email-aside ion-icon {
+    vertical-align: text-bottom;
 }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {  }
