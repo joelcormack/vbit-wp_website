@@ -8,11 +8,11 @@
  */
 
 ?>
-<article id="post-<?php the_ID(); ?>" <?php post_class('front-page--packages-and-services container-fluid py-5'); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('packages-and-services container-fluid pt-5'); ?>>
     <div class="row">
         <div class="container">
             <h2>VBit Packages and Services</h2>
-            <h3>We'll Help You Earn Passive Bitcoin Income, With Unlimited Earning Potential</h3>
+            <h3 class="my-4">We'll Help You Earn Passive Bitcoin Income, With Unlimited Earning Potential</h3>
             <?php
 
             $args = array(
@@ -30,13 +30,13 @@
                 echo '<div class="row">';
                 while ( $the_query->have_posts() ) {
                     $the_query->the_post(); ?>
-                        <div class="col-sm-6 col-md-4">
-                            <article class="package-block mt-md-5">
+                        <div class="col-sm-6 col-md-4 my-3">
+                            <article class="package-block mt-md-4">
                                 <div class="d-flex">
                                     <div class="package package-left-section" style="border-bottom-color:<?php echo get_field('package_colour'); ?>">
                                         <h4><?php the_title(); ?></h4>  
                                         <span><?php the_field('marketing_name'); ?></span>  
-                                        <span><?php the_field('size'); ?></span>  
+                                        <span><?php the_field('size'); ?> GH/s</span>  
                                     </div>
                                     <div class="package package-right-section">
                                         <div class="package-cost-section">

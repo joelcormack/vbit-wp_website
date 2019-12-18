@@ -8,11 +8,11 @@
  */
 
 ?>
-<article id="post-<?php the_ID(); ?>" <?php post_class('client-success-stories container-fluid py-5'); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('client-success-stories container-fluid py-4'); ?>>
     <div class="row">
         <div class="container">
-            <h2 class="text-center">Client Success Stories</h2>
-            <h3 class="text-center">Our clients are at the heart of everything we do.</h3>
+            <h2 class="text-md-center">Client Success Stories</h2>
+            <h3 class="text-md-center my-4">Our clients are at the heart of everything we do.</h3>
             <?php
 
             $args = array(

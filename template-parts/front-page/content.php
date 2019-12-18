@@ -11,7 +11,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class('container'); ?>>
 	<div class="row">
-		<div class="col-md-4 offset-md-1">
+		<div class="col-md-6 col-lg-4 offset-lg-1">
 
 			<?php
 			the_post_thumbnail( 'underboot-cover-image',
@@ -27,7 +27,7 @@
 				</header>
 			<?php } ?>
 
-			<div class="entry-content">
+			<div class="entry-content pr-4">
 				<?php
 				the_content();
 
@@ -61,7 +61,7 @@
 				</footer>
 			<?php endif; ?>
 		</div>
-		<div class="col-md-5 offset-md-1">
+		<div class="col-md-6 offset-lg-1 d-none d-md-block">
 			<img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-page-header-vbit-graphic.png" alt="VBit header graphic" />
 		</div>
 	</div>

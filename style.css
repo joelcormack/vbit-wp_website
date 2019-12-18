@@ -14,20 +14,19 @@
 :root {
     --light-blue: #c2e2f6;
     --turquoise: #1EB5CD;
+    --dark-blue: darkblue;
  }
-/*
-body {…}
-h1, h2, h3 {..}
-p {…}
-a {…}
-
-*/
+/****** GENERAL *******/
 button.btn, button.btn-blue {
-    color: white;
-    background-color: var(--turquoise, #1EB5CD);
+    min-width: 9rem;
+    margin: 0.5rem 0;
     border-radius: 2rem;
-    padding: 0.4rem 2.5rem;
-    margin: 1rem 0;
+    background-color: var(--turquoise, #1EB5CD);
+    color: white;
+}
+button.btn-white {
+    background-color: white;
+    color: black;
 }
 
 
@@ -41,12 +40,19 @@ button.btn, button.btn-blue {
 
 
 /****** Home Page ******/
+.entry-content h4 {
+    font-size: 1.1rem;
+    color: var(--dark-blue, darkblue);
+}
+.entry-content h4:nth-child(2) {
+    font-size: 0.9rem;
+}
 .homepage-background {
     position: absolute;
-    left: -5px;
-    top: -154px;
-    width: 100%;
-    height: 649px;
+    left: -46px;
+    top: -126px;
+    width: 113%;
+    height: 715px;
     background-color: #c2e2f6;
     -ms-transform: rotate(10deg);
     -webkit-transform: rotate(10deg);
@@ -54,29 +60,23 @@ button.btn, button.btn-blue {
     border-radius: 46px;
     z-index: -1;
 }
-.front-page--how-minging-works {
-
-
-}
-
-.front-page--packages-and-services {
+.packages-and-services {
     background-color: var(--light-blue, #c2e2f6);
 }
-.front-page--packages-and-services h3 {
+.packages-and-services h3 {
     font-size: 1.1rem;
 }
+/****** PACKAGE  ********/
 .package span {
     margin: auto;
     display: block;
-}
-.package-block {
-    
 }
 .package-block h4 {
     font-size: 1.2rem;
 }
 .package {
     padding: 0.7rem;
+    font-size: 0.7rem;
 }
 .package-left-section {
     background: white;
@@ -100,13 +100,55 @@ button.btn, button.btn-blue {
 }
 .package-cost-section {
     margin: auto;
-
 }
 .cost {
     font-size: 2rem;
     font-weight:700;
 }
-.front-page--advert {
+.advert {
     background-color: var(--turquoise);
     text-align: center;
 }
+.font-white {
+    color: white;
+}
+.font-small-bold {
+    font-size: 0.8rem;
+}
+.client-success-stories h3 {
+    font-size: 1.2rem;
+}
+.call-to-action {
+    box-shadow:0px 0px 13px grey;
+    text-align: center;
+}
+.call-to-action button.btn {
+    display: block;
+    margin: 1.3rem auto;
+    padding: .7rem 2rem;
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .homepage-background {
+        left: -46px;
+        top: -126px;
+        width: 113%;
+        height: 704px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .homepage-background {
+        left: -149px;
+        top: -126px;
+        width: 110%;
+        height: 693px;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }

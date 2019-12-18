@@ -8,7 +8,7 @@
  */
 
 ?>
-<article id="post-<?php the_ID(); ?>" <?php post_class('front-page--how-minging-works container-fluid my-md-5'); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('how-minging-works container-fluid mt-4 my-md-5'); ?>>
     <div class="row">
         <div class="container">
             

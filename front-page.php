@@ -24,6 +24,8 @@ get_header();
 			get_template_part( 'template-parts/vbit-packages-and-services' );
 			get_template_part( 'template-parts/front-page/advert' );
 			get_template_part( 'template-parts/client-success-stories' );
+			get_template_part( 'template-parts/call-to-action' );
+			get_template_part( 'template-parts/footer/email-aside' );
 
 		endwhile; // End of the loop.
 		?>
