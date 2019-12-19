@@ -27,7 +27,7 @@
 				</header>
 			<?php } ?>
 
-			<div class="entry-content pr-4">
+			<div class="entry-content pr-sm-4">
 				<?php
 				the_content();
 

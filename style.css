@@ -20,7 +20,7 @@
     font-family: 'Roboto', sans-serif;
  }
 /****** GENERAL *******/
-h2, h3 {
+h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
 }
 body {
@@ -37,7 +37,6 @@ button.btn-white {
     background-color: white;
     color: black;
 }
-
 
 
 /****** Header Style *********/
@@ -105,6 +104,7 @@ button.btn-white {
 .entry-content h4 {
     font-size: 1.1rem;
     color: var(--dark-blue, darkblue);
+    font-weight: 300;
 }
 .entry-content h4:nth-child(2) {
     font-size: 0.9rem;
@@ -136,6 +136,7 @@ button.btn-white {
 .packages-and-services h3 {
     font-size: 1.1rem;
 }
+
 /****** PACKAGE  ********/
 .package span {
     margin: auto;
@@ -143,6 +144,8 @@ button.btn-white {
 }
 .package-block h4 {
     font-size: 1.2rem;
+    font-weight: 300;
+
 }
 .package {
     padding: 0.7rem;
@@ -185,11 +188,21 @@ button.btn-white {
 .font-small-bold {
     font-size: 0.8rem;
 }
+
+/****** CLIENT SUCCESS STORIES  ****/
 .client-success-stories h3 {
     font-size: 1.2rem;
 }
+.card-deck .card {
+    box-shadow:0px 0px 13px #80808054;
+    border-radius: 10px;
+}
+.card-text ion-icon {
+    font-size: 2rem;
+}
+/****** CALL TO ACTION *********/
 .call-to-action {
-    box-shadow:0px 0px 13px grey;
+    box-shadow:0px 0px 13px#80808054;
     text-align: center;
 }
 .call-to-action h4 {

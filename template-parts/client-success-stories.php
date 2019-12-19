@@ -12,7 +12,7 @@
     <div class="row">
         <div class="container">
             <h2 class="text-md-center">Client Success Stories</h2>
-            <h3 class="text-md-center my-4">Our clients are at the heart of everything we do.</h3>
+            <h3 class="text-md-center mb-4 my-sm-4">Our clients are at the heart of everything we do.</h3>
             <?php
 
             $args = array(
@@ -31,15 +31,15 @@
                             <div class="card-body row no-gutters">
                                       
                                     <div class="col-md-4">
-                                        <img class="img-fluid" src="<?php the_post_thumbnail_url(); ?>" />
-                                        <?php the_date(); ?>
+                                        <img class="img-fluid rounded" src="<?php the_post_thumbnail_url(); ?>" />
                                     </div>
-                                    <h5 class="col-md-8 card-title">
+                                    <h4 class="col-md-8 card-title my-3">
                                         <?php the_title(); ?>
                                         <?php the_field('star_rating'); ?>
-                                    </h5>
+                                    </h4>
                                     <div class="card-text">
-                                        <?php the_content(); ?>
+                                        <p class="text-muted"><?php the_date(); ?></p>
+                                        <ion-icon name="quote"></ion-icon><blockquote><?php the_content(); ?></blockquote>
                                     </div>
                                 
                             </div>
