@@ -228,6 +228,10 @@ button.btn-white {
 .email-aside ion-icon {
     vertical-align: text-bottom;
 }
+/**** HOW VBIT MINING WORKS *****/
+.how-vbit-mining-works .navbar, .how-vbit-mining-works {
+    background-color: #FCECB3;
+}
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
     .site-main .btn {

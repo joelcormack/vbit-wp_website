@@ -10,12 +10,12 @@
  */
 
 ?>
-
-	</div><!-- #content -->
 	
-
+	
+</div><!-- #content -->	
+	
 	<footer id="footer" class="site-footer">
-    
+    <?php get_template_part( 'template-parts/footer/email-aside' );?>
 		<?php do_action('underboot_footer'); ?>
     
 		<div class="container footer-nav py-4">
