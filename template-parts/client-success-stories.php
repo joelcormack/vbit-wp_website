@@ -35,7 +35,19 @@
                                 </div>
                                 <div class="col-lg-8 card-title my-3 my-lg-0 pl-lg-3">
                                     <h4><?php the_title(); ?></h4>
-                                    <p class="star-rating"><?php get_field('star_rating'); ?></p>
+                                    <p class="star-rating">
+                                        <?php 
+                                        $rating = get_field('star_rating');
+                                        for ($x = 0; $x <= 4; $x++) {
+                                            if ($rating) {
+                                            echo '<ion-icon name="star"></ion-icon>';
+                                            --$rating;
+                                            }
+                                            else {
+                                                echo '<ion-icon name="star-outline"></ion-icon>';
+                                            }
+                                        }
+                                        ?></p>
                                 </div>
                                 <div class="card-text">
                                     <p class="text-muted"><?php echo get_the_date(); ?></p>
