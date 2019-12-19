@@ -19,3 +19,14 @@ function register_footer_menus() {
     register_nav_menu( 'footer-links', __( 'Footer Links Menu', 'theme-text-domain' ) );
     register_nav_menu( 'footer-extra', __( 'Footer Extra Menu', 'theme-text-domain' ) );
 }
+
+/**
+ * Filter the except length to 55 words.
+ *
+ * @param int $length Excerpt length.
+ * @return int (Maybe) modified excerpt length.
+ */
+function wpdocs_custom_excerpt_length( $length ) {
+    return 55;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );

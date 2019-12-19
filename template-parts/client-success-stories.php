@@ -24,26 +24,26 @@
             
             // The Loop
             if ( $the_query->have_posts() ) {
-                echo '<div class="card-deck">';
+                echo '<div class="row row-cols-1 row-cols-md-2">';
                 while ( $the_query->have_posts() ) {
                     $the_query->the_post(); ?>
-                        <div class="card">  
-                            <div class="card-body row no-gutters">
-                                      
-                                    <div class="col-md-4">
-                                        <img class="img-fluid rounded" src="<?php the_post_thumbnail_url(); ?>" />
-                                    </div>
-                                    <h4 class="col-md-8 card-title my-3">
-                                        <?php the_title(); ?>
-                                        <?php the_field('star_rating'); ?>
-                                    </h4>
-                                    <div class="card-text">
-                                        <p class="text-muted"><?php the_date(); ?></p>
-                                        <ion-icon name="quote"></ion-icon><blockquote><?php the_content(); ?></blockquote>
-                                    </div>
-                                
+                    <div class="col-sm-6 col-lg-4 my-4 my-lg-0">
+                        <div class="card h-100">  
+                            <div class="card-body row no-gutters">  
+                                <div class="col-lg-4">
+                                    <img class="img-fluid rounded" src="<?php the_post_thumbnail_url(); ?>" />
+                                </div>
+                                <div class="col-lg-8 card-title my-3 my-lg-0 pl-lg-3">
+                                    <h4><?php the_title(); ?></h4>
+                                    <p class="star-rating"><?php get_field('star_rating'); ?></p>
+                                </div>
+                                <div class="card-text">
+                                    <p class="text-muted"><?php echo get_the_date(); ?></p>
+                                    <ion-icon name="quote"></ion-icon><blockquote><?php the_excerpt(); ?></blockquote>
+                                </div>
                             </div>
-                        </div>
+                        </div><!-- card -->
+                    </div>
                 <?php
                 }
                 echo '</div>';
