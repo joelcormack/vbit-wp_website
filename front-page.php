@@ -11,7 +11,12 @@
 
 get_header();
 ?>
-	<div class="homepage-background"></div>
+	<!--
+		<div class="homepage-background-container">
+			<div class="homepage-background"></div>
+		</div>
+	-->
+
 	<div id="primary">
 		<main id="main" class="site-main">
 

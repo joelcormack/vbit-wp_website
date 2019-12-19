@@ -8,18 +8,18 @@
  */
 
 ?>
-<article id="post-<?php the_ID(); ?>" <?php post_class('container-fluid py-4'); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('container-fluid py-5'); ?>>
     <div class="row">
-        <div class="col-sm-10 offset-sm-1">
-            <section class="container call-to-action py-3">
+        <div class="col-sm-8 offset-sm-2">
+            <section class="container call-to-action py-5">
                 <div class="row">
-                    <div class="col-8 offset-2 mb-3">
+                    <div class="col-sm-4 mb-3">
                         <img class="img-fluid" alt="Open Box" src="<?php echo get_stylesheet_directory_uri(); ?>/img/currency-sign.png" />
                     </div>
-                    <div class="col-sm-8">
-                    <h4 class="">“Want to Join Millions of Ordinary People Who Are Making Steady Passive Income With VBit?”</h4>
+                    <div class="col-sm-8 call-to-action--text">
+                    <h4 class="my-3">“Want to Join Millions of Ordinary People Who Are Making Steady Passive Income With VBit?”</h4>
                     <p>Click the Button Below and Get Started Immediately</p>
-                    <a href=""><button class="btn btn-blue">Start Mining Today</button></a>
+                    <a href=""><button class="btn btn-blue float-sm-left">Start Mining Today</button></a>
 
                     </div>
                 </div>

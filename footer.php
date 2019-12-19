@@ -23,7 +23,7 @@
 				<div class="col-sm-6">
 					<div class="row">
 						<div class="col-sm">
-							<img src="http://vbit.test/wp-content/uploads/2019/12/vbit-logo.png" class="custom-logo" alt="vbit-logo" />
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/vbit-logo-white.png" class="custom-logo mb-4" alt="vbit-logo" />
 							<a href="mailto:support@vbittech.com">support@vbittech.com</a>
 						</div>
 						

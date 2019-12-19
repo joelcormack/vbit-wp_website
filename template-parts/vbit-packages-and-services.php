@@ -12,7 +12,7 @@
     <div class="row">
         <div class="container">
             <h2>VBit Packages and Services</h2>
-            <h3 class="my-4">We'll Help You Earn Passive Bitcoin Income, With Unlimited Earning Potential</h3>
+            <h3 class="my-3">We'll Help You Earn Passive Bitcoin Income, With Unlimited Earning Potential</h3>
             <?php
 
             $args = array(
@@ -30,7 +30,7 @@
                 echo '<div class="row">';
                 while ( $the_query->have_posts() ) {
                     $the_query->the_post(); ?>
-                        <div class="col-sm-6 col-md-4 my-3">
+                        <div class="col-sm-6 col-md-4 my-4">
                             <article class="package-block mt-md-4">
                                 <div class="d-flex">
                                     <div class="package package-left-section" style="border-bottom-color:<?php echo get_field('package_colour'); ?>">
