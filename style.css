@@ -37,7 +37,9 @@ button.btn-white {
     background-color: white;
     color: black;
 }
-
+.text-blue {
+    color: var(--turquoise)!important;
+}
 
 /****** Header Style *********/
 .custom-logo {
@@ -201,12 +203,14 @@ button.btn-white {
     font-size: 2rem;
 }
 /****** CALL TO ACTION *********/
-.call-to-action {
-    box-shadow:0px 0px 13px#80808054;
+.call-to-action {    
     text-align: center;
 }
-.call-to-action h4 {
-    color: var(--turquoise);
+.blue-border {
+    border: 2px var(--turquoise) solid;
+}
+.box-shadow {
+    box-shadow:0px 0px 13px#80808054;
 }
 .call-to-action button.btn {
     display: block;
@@ -237,6 +241,9 @@ button.btn-white {
 .how-vbit-mining-works--header h2 {
     font-size: 1.2rem;
     font-weight: 300;
+}
+.how-vbit-mining-works--behind-the-machinery {
+    background-color: #F2F2F2;
 }
 
 
@@ -296,6 +303,9 @@ button.btn-white {
     }
     .client-success-stories .card-body h4 {
         font-size: 1rem;
+    }
+    .how-vbit-mining-works--uses-section .call-to-action {
+        padding: 2rem 6rem 1rem;;
     }
  }
 

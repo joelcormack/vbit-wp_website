@@ -65,7 +65,7 @@ echo '</div>';
 					</div>
 				</div>
 			</div>
-			<div class="container py-4 how-vbit-mining-works--video-section">
+			<div class="container py-4 how-vbit-mining-works--uses-section">
 				<div class="row">
 					<div class="col-sm-3 align-self-center">
 						<h2>Why use Vbit Mining?</h2>
@@ -102,6 +102,48 @@ echo '</div>';
 					</div>
 				</div>
 			</div>
+
+			<div class="container my-4 py-4 how-vbit-mining-works--call-to-action">
+				<div class="row">
+					<div class="col-sm-8 offset-sm-2 py-4 call-to-action blue-border">
+						<h3 class="text-blue">Now that you understand what VBit mining can do for you,it's time to get started!</h3>
+						<p class="mb-5">Click the Button Below and Start Building Passive Income Immediately</p>
+						<button class="btn btn-blue">Start Mining Today</button>
+					</div>
+				</div>
+			</div>
+				
+			<div class="container-fluid mt-4 py-4 how-vbit-mining-works--behind-the-machinery">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<h2>What’s Behind The Machinery</h2>
+							<p>VBit Technologies was founded in 2018 when a few crypto believers and aficionados came together and began exploring the concept of making crypto mining, and it’s incredible potential accessible to a bigger audience.</p>
+							<p>Today VBit is committed to its mission: Building an efficient, profitable crypto currency mining operation anyone and everyone can use!</p>
+							<p>Since launching, VBit has over 2000+members and is on target to hit over $2 million in revenue in the first year. VBit’s user growth has been an exponential month over month, with users now in many different countries.</p>
+							<p>We currently operate out of state-of-the-art data centers in Colorado, Ohio and Texas. We are also planning a new data center facility located in Canada that will be expandable to 200MW of power.</p>
+						</div>
+						<div class="col-sm-6">
+							<img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/vbit-group.png" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-8 offset-sm-2 my-5 text-sm-center">
+							<h5 class="mb-3">Our experienced founding team, cutting-edge technology and a commitment to helping our users is what has made VBit Technologies quickly take a position among industry leaders.</h5>
+							<div class="row">
+								<div class="col-sm-4">
+									<img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/danh-profile.png" />
+								</div>
+								<div class="col-sm-8 text-left">
+									<h6>Danh Vo</h6>
+									<p>Is a serial entrepreneur with over 15 years of leadership experience, he started his first business, a computer manufacturing and programming consulting company, at the age of 13, and had a successful exit of over $1.6 million dollars by the age of 15. Since then, he is focusing his work around the finance and tech industry. Danh took interest in the cryptocurrency markets in 2015, and using his ability to recognize patterns and trends, he founded VBit Technologies to help everyone participate and benefit from this new technology that will revolutionize the financial industry.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
 
 <?php
 			
