@@ -18,7 +18,7 @@ get_header();
 	-->
 
 	<div id="primary">
-		<main id="main" class="site-main">
+		<main id="main" class="site-main pt-4">
 
 		<?php
 		while ( have_posts() ) :
@@ -30,7 +30,6 @@ get_header();
 			get_template_part( 'template-parts/front-page/advert' );
 			get_template_part( 'template-parts/client-success-stories' );
 			get_template_part( 'template-parts/call-to-action' );
-			get_template_part( 'template-parts/footer/email-aside' );
 
 		endwhile; // End of the loop.
 		?>

@@ -14,13 +14,13 @@ get_header();
 echo '</div>';
 ?>
 
-	<div id="primary" class="">
-		<main id="main" class="">
+	<div id="primary">
+		<main id="main">
 
 		<?php
 		while ( have_posts() ) :
 			the_post(); ?>
-			<div class="container-fluid how-vbit-mining-works--header">
+			<div class="container-fluid how-vbit-mining-works--header pt-4">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-6 align-self-center">
