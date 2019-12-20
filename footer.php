@@ -86,16 +86,16 @@
 		</div>
 		<div class="clear"><input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 		<div class="footer-ion-icons mt-3">
-			<a href="">
+			<a href="https://www.facebook.com/vbittech/" target="_blank">
 				<ion-icon name="logo-facebook"></ion-icon>
 			</a>
-			<a href="">
+			<a href="https://twitter.com/vbit_tech" target="_blank">
 				<ion-icon name="logo-twitter"></ion-icon>
 			</a>
-			<a href="">
+			<a href="https://www.youtube.com/channel/UCaPfLi0OIVviM_7OFCD0UzA" target="_blank">
 				<ion-icon name="logo-youtube"></ion-icon>
 			</a>
-			<a href="">
+			<a href="https://www.instagram.com/vbit_tech/" target="_blank">
 				<ion-icon name="logo-instagram"></ion-icon>
 			</a>
 		</div>

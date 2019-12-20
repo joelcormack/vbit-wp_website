@@ -245,6 +245,11 @@ button.btn-white {
 .how-vbit-mining-works--behind-the-machinery {
     background-color: #F2F2F2;
 }
+/**** FAQ ******/
+.faq .navbar,
+.faq  {
+    background-color: #ABE3D4;
+}
 
 
 
