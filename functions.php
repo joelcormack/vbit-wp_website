@@ -1,4 +1,11 @@
 <?php
+/**** Included files ****/
+include('custom-shortcodes.php');
+
+
+
+
+/**** Load style sheets and scripts ****/
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 function my_theme_enqueue_styles() {
  
@@ -15,10 +22,14 @@ function my_theme_enqueue_styles() {
 }
 add_action( 'after_setup_theme', 'register_footer_menus' );
  
+
+
+/**** Menus ******/
 function register_footer_menus() {
     register_nav_menu( 'footer-links', __( 'Footer Links Menu', 'theme-text-domain' ) );
     register_nav_menu( 'footer-extra', __( 'Footer Extra Menu', 'theme-text-domain' ) );
 }
+
 
 /**
  * Filter the except length to 55 words.

@@ -20,7 +20,7 @@ echo '</div>';
 		<?php
 		while ( have_posts() ) :
 			the_post(); ?>
-			<div class="container-fluid faq">
+			<div class="container-fluid faq--header">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-5 align-self-center">
@@ -29,6 +29,22 @@ echo '</div>';
 						</div>
 						<div class="col-sm-7">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/faq-header.png" class="img-fluid" alt="Hands Holding VBit Coin" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid faq--body py-4">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="accordion" id="accordionExample">
+								<?php the_field('faq_left_column'); ?>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="accordion" id="accordionExample">
+								<?php the_field('faq_right_column'); ?>
+							</div>
 						</div>
 					</div>
 				</div>

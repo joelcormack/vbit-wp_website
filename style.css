@@ -247,13 +247,12 @@ button.btn-white {
 }
 /**** FAQ ******/
 .faq .navbar,
-.faq  {
+.faq--header  {
     background-color: #ABE3D4;
 }
-
-
-
-
+.faq--body {
+    background-color: #F2F2F2;
+}
 
 
 
