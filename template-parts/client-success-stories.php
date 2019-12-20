@@ -46,8 +46,7 @@
                                             else {
                                                 echo '<ion-icon name="star-outline"></ion-icon>';
                                             }
-                                        }
-                                        ?></p>
+                                        } ?></p>
                                 </div>
                                 <div class="card-text">
                                     <p class="text-muted"><?php echo get_the_date(); ?></p>

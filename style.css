@@ -229,9 +229,22 @@ button.btn-white {
     vertical-align: text-bottom;
 }
 /**** HOW VBIT MINING WORKS *****/
-.how-vbit-mining-works .navbar, .how-vbit-mining-works {
+.how-vbit-mining-works .navbar, 
+.how-vbit-mining-works .site-content, 
+.how-vbit-mining-works--header {
     background-color: #FCECB3;
 }
+.how-vbit-mining-works h2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
     .site-main .btn {
