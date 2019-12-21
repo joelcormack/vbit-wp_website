@@ -23,17 +23,22 @@ echo '</div>';
 			<div class="container-fluid faq--header">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-5 align-self-center">
+						<div class="faq--header-col col-sm-5 pt-3 align-self-center">
+						<?php
+							if ( function_exists('yoast_breadcrumb') ) {
+  								yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+							}
+						?>
 							<h1><?php the_title(); ?></h1>
 							<?php the_content(); ?>
 						</div>
-						<div class="col-sm-7">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/faq-header.png" class="img-fluid" alt="Hands Holding VBit Coin" />
+						<div class="faq--header-col col-sm-7 d-none d-sm-block">
+							<img id="faq--header-img" class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/faq-header.png"  alt="Hands Holding VBit Coin" />
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="container-fluid faq--body py-4">
+			<div class="container-fluid faq--body py-5">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-6">

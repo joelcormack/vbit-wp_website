@@ -40,6 +40,12 @@ button.btn-white {
 .text-blue {
     color: var(--turquoise)!important;
 }
+#breadcrumbs {
+    text-transform: capitalize;
+}
+#breadcrumbs a {
+    color:#000000;
+}
 
 /****** Header Style *********/
 .custom-logo {
@@ -250,6 +256,9 @@ button.btn-white {
 .faq--header  {
     background-color: #ABE3D4;
 }
+.faq--header a {
+    color: #F16C58;
+}
 .faq--body {
     background-color: #F2F2F2;
 }
@@ -325,6 +334,17 @@ button.btn-white {
     .cost {
         font-size: 1rem;
     }
+    #faq--header-img {
+        position: absolute;
+        top:-76px;
+    }
+    .faq--header-col {
+        min-height: 272px;
+    }
+    .faq--header-col h1 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
  }
 
 /* Large devices (desktops, 992px and up)*/
@@ -345,11 +365,21 @@ button.btn-white {
     .how-vbit-mining-works--uses-section .call-to-action {
         padding: 2rem 6rem 1rem;;
     }
+    .faq--header-col {
+        min-height: 392px;
+    }
+    .faq--header-col h1 {
+        font-size: 2.5rem;
+        margin-top: 6rem;
+    }
  }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
     #mc_embed_signup input.email {
         width: 350px !important;
+    }
+    .faq--header-col {
+        min-height: 479px;
     }
  }
