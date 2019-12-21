@@ -34,12 +34,13 @@ function slugify($text)
     $slug = slugify($question);
 
     return '
-    <div class="card">
+    <div class="card faq--question">
         <div class="card-header" id="heading'. $slug .'">
             <h2 class="mb-0">
-                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#' . $slug . '" aria-expanded="true" aria-controls="' . $slug . '">
+            <h5 class="collapsed" data-toggle="collapse" data-target="#' . $slug . '" aria-expanded="true" aria-controls="' . $slug . '">
+            <ion-icon class="minus" name="remove"></ion-icon><ion-icon class="plus" name="add"></ion-icon>
                 ' . $question . '
-                </button>
+                </h5>
             </h2>
         </div>
 
